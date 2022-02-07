@@ -39,3 +39,9 @@
 h6{
   color: gray;
 }
+
+@media only screen and (max-width: 825px) {
+  .newsItem {
+    width: 100%;
+  }
+}
