@@ -15,7 +15,7 @@ function App() {
       </div>
       <ListAPI></ListAPI>
       <hr />
-      <p class="text-center text-muted">© 2022 PT. Eigen Tri Mathema by Alfan Baharudin.</p>
+      <p class="text-center text-muted">© 2022 PT. Eigen Tri Mathema create by Alfan Baharudin.</p>
     </Container>
   );
 }
