@@ -7,7 +7,7 @@ const ListAPI = () => {
 
     useEffect(() => {
         const getArticles = async () => {
-            const res = await Axios.get("https://newsapi.org/v2/everything?q=tesla&from=2022-01-09&sortBy=publishedAt&apiKey=3333cccec6e64b15b97070a9a21e78bc");
+            const res = await Axios.get("https://newsapi.org/v2/everything?q=tesla&from=2022-01-10&sortBy=publishedAt&apiKey=3333cccec6e64b15b97070a9a21e78bc");
             setArticles(res.data.articles);
 
             console.log(res);
